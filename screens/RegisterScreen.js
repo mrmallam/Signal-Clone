@@ -3,7 +3,7 @@ import React, { useLayoutEffect } from 'react'
 import { KeyboardAvoidingView } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { Button, Input, Text } from 'react-native-elements';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { auth } from "../firebase";
 
 const RegisterScreen = ({ navigation }) => {
