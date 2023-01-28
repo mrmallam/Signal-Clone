@@ -16,7 +16,6 @@ const CustomListItem = ({ id, chatName, enterChat }) => {
                     {chatName}
                 </ListItem.Title>
                 <ListItem.Subtitle numberOfLines={1} ellip sizeMode="tail">
-                    This is a test Subtitle This is a test Subtitle This is a test Subtitle This is a test Subtitle This is a test Subtitle This is a test Subtitle This is a test Subtitle This is a test Subtitle
                 </ListItem.Subtitle>
 
 
