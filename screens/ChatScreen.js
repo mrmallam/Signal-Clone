@@ -19,7 +19,12 @@ const ChatScreen = ({ navigation, route }) => {
             // headerTitleAlign: "left",
             headerTitle: () => (
                 <View style={{ flexDirection: "row", alignItems: "center" }}>
-                    <Avatar rounded source={{ uri: "https://t3.ftcdn.net/jpg/01/18/01/98/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg" }} />
+                    <Avatar
+                        rounded
+                        source={{
+                            uri: messages[0]?.data.photoURL
+                        }}
+                    />
                     <Text style={{ color: "white", marginLeft: 10, fontWeight: "700" }} >
                         {route.params.chatName}
                     </Text>
@@ -50,7 +55,7 @@ const ChatScreen = ({ navigation, route }) => {
                 </View>
             )
         });
-    }, [navigation]);
+    }, [navigation, messages]);
 
     const sendMessage = () => {
         Keyboard.dismiss();
@@ -114,7 +119,7 @@ const ChatScreen = ({ navigation, route }) => {
                                     </View>
 
                                 ) : (
-                                    <View style={styles.sender}>
+                                    <View key={id} style={styles.sender}>
                                         <Avatar
                                             position="absolute"
                                             rounded
