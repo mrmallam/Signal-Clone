@@ -12,6 +12,6 @@ A cross platform Signal-App clone built with React Native, Expo, Firebase and Re
 </ul>
 
 <h2>Try it out</h2>
-https://signal-clone-yt-bui.web.app
+<link href="https://signal-clone-yt-bui.web.app">
 
 Note: If the app is not functional, the Firebase quota might have been exceeded. Replace the "firebaseConfig" in the firebase.js file with your own Firebase configuration to resolve the issue.
