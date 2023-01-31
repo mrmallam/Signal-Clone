@@ -14,8 +14,6 @@ const CustomListItem = ({ id, chatName, enterChat }) => {
         return unsubscribe;
     });
 
-
-
     return (
         <ListItem key={id} onPress={() => enterChat(id, chatName)} buttomDivider >
             <Avatar
