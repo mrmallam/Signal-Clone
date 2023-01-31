@@ -1,4 +1,4 @@
-#Signal-App-Clone
+<h1>Signal-App-Clone</h1>
 
 A cross platform Signal-App clone built with React Native, Expo, Firebase and React-Native Elements. Works on IOS, Android and the web browser.
 
