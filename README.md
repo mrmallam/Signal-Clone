@@ -8,7 +8,6 @@ A cross platform Signal-App clone built with React Native, Expo, Firebase and Re
     <li>Login with registered account</li>
     <li>Send messages to different registered accounts</li>
     <li>Create chat channels for multiple users</li>
-    <li>Try it out</li>
 </ul>
 
 <h2>Try it out: <a href="https://signal-clone-yt-bui.web.app">Signal </a> </h2> 
