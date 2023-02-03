@@ -61,7 +61,6 @@ const HomeScreen = ({ navigation }) => {
     const enterChat = (id, chatName) => {
         navigation.navigate('Chat', { id, chatName });
     }
-
     return (
         <SafeAreaView>
             <ScrollView style={styles.container}>

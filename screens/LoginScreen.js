@@ -61,7 +61,6 @@ const LoginScreen = ({ navigation }) => {
         </KeyboardAvoidingView>
     )
 }
-
 export default LoginScreen
 
 const styles = StyleSheet.create({
